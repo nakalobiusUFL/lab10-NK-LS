@@ -24,9 +24,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(6, 4), 24)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(10, 2), 5)
-        self.assertEqual(div(10, 5), 2)
-        self.assertEqual(div(0, 3), 0)
+        self.assertEqual(div(2, 10), 5)
+        self.assertEqual(div(5, 10), 2)
+        self.assertEqual(div(3, 0), 0)
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
