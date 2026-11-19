@@ -22,8 +22,9 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             div(0, 5)
 
-    # def test_logarithm(self): # 3 assertions
-    #     fill in code
+    def test_logarithm(self): # 3 assertions
+        with self.assertRaises(ValueError):
+            logarithm(4, -2)
 
     # def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
