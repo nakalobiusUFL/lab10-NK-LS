@@ -1,3 +1,7 @@
+# https://github.com/nakalobiusUFL/lab10-NK-LS.git
+# Partner 1: Natalie Kalobius
+# Partner 2: Lana Salvador
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
