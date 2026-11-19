@@ -44,8 +44,10 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
                 logarithm(0, 5)
 
-    # def test_hypotenuse(self): # 3 assertions
-    #     fill in code
+    def test_hypotenuse(self): # 3 assertions
+        self.assertEqual(hypotenuse(4, 3), 5)
+        self.assertEqual(hypotenuse(5, 12), 13)
+        self.assertEqual(hypotenuse(6, 8), 10)
 
     # def test_sqrt(self): # 3 assertions
     #     # Test for invalid argument, example:
