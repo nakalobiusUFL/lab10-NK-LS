@@ -40,11 +40,9 @@ class TestCalculator(unittest.TestCase):
             logarithm(-10, 1)
     
     ######## Partner 1
-    # def test_log_invalid_argument(self): # 1 assertion
-    #     # call log function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     logarithm(0, 5)
-    #     fill in code
+    def test_log_invalid_argument(self): # 1 assertion     # call log function inside, example:
+        with self.assertRaises(ValueError):
+                logarithm(0, 5)
 
     # def test_hypotenuse(self): # 3 assertions
     #     fill in code
