@@ -5,6 +5,8 @@ class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self): # 3 assertions
         self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(1, 6), 7)
+        self.assertEqual(add(5, 5), 10)
 
     def test_subtract(self): # 3 assertions
         self.assertEqual(subtract(5, 3), 2)
