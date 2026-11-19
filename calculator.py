@@ -23,8 +23,8 @@ def div(a, b):
         return b / a
 
 def log(a, b):
-    if a < 0 or b < 0:
-        raise ValueError
+    if b < 0 or a < 0:
+        raise ZeroDivisionError
     else:
         return math.log(a, b)
 
