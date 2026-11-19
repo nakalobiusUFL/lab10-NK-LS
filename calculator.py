@@ -1,3 +1,5 @@
+import math
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
