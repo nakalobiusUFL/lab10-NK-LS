@@ -49,13 +49,12 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(hypotenuse(5, 12), 13)
         self.assertEqual(hypotenuse(6, 8), 10)
 
-    # def test_sqrt(self): # 3 assertions
-    #     # Test for invalid argument, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #    square_root(NUM)
-    #     # Test basic function
-    #     fill in code
-    ##########################
+    def test_sqrt(self): # 3 assertions
+        with self.assertRaises(ValueError):
+            square_root(-2)
+
+        self.assertEqual(square_root(16), 4)
+        self.assertEqual(square_root(100), 10)
 
 # Do not touch this
 if __name__ == "__main__":
