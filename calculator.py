@@ -21,7 +21,7 @@ def div(a, b):
         return b / a
 
 def log(a, b):
-    if b < 0:
+    if a < 0 or b < 0:
         raise ValueError
     else:
         return math.log(a, b)
