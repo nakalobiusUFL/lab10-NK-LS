@@ -25,6 +25,8 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self): # 3 assertions
         with self.assertRaises(ValueError):
             logarithm(4, -2)
+            logarithm(-2, 4)
+            logarithm(5, 1)
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
